@@ -1,0 +1,68 @@
+.paginationContainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.paginationItemsContainer {
+  display: flex;
+  position: static;
+  align-items: center;
+  flex-shrink: 0;
+}
+.paginationItem {
+  text-decoration: none;
+  margin: 0.3em 0.3em;
+  color: white;
+  padding: 5px 10px 5px;
+  border-radius: 50%;
+}
+.paginationItemActive {
+  text-decoration: none;
+  margin: 0.3em 0.3em;
+  color: black;
+  padding: 5px 10px 5px;
+  border-radius: 50%;
+  background-color: rgb(164, 39, 180, 0.9);
+}
+.paginationNavigateLeft {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.5s ease 0s;
+  flex-shrink: 0;
+  padding: 3px;
+}
+.paginationNavigateLeft svg {
+  margin-right: 0.1em;
+  color: white;
+}
+.paginationNavigateLeft a,
+.paginationNavigateRight a {
+  color: white;
+}
+.paginationNavigateRight svg {
+  margin-left: 0.1em;
+  color: white;
+}
+.paginationNavigateRight {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 3px;
+}
+.paginationNavigateLeft:hover,
+.paginationNavigateRight:hover {
+  background-color: rgb(164, 39, 180, 0.9);
+  border-radius: 20px;
+}
+@media screen and (max-width: 425px) {
+  .paginationNavigateLeft a,
+  .paginationNavigateRight a {
+    display: none;
+  }
+}

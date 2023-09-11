@@ -1,0 +1,142 @@
+.formReg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px;
+  margin: 10em auto;
+  background-color: rgb(164, 39, 180, 0.9);
+  width: 350px;
+  height: 400px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.emailInput {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 3em;
+  width: 15em;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  outline: none;
+  border: none;
+  overflow: visible;
+  text-align: start;
+  appearance: auto;
+}
+@media screen and (max-width: 320px) {
+  .formReg {
+    width: 295px;
+  }
+}
+
+.passwordInput {
+  margin-top: 1.5em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 3em;
+  width: 15em;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  outline: none;
+  border: none;
+  overflow: visible;
+  text-align: start;
+  appearance: auto;
+}
+
+.formReg button {
+  margin-top: 1em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: white;
+  text-transform: uppercase;
+  width: 15.5em;
+  height: 3em;
+  border-radius: 5px;
+  background: black;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: background 0.3s ease 0s;
+}
+.formReg button:hover {
+  cursor: pointer;
+  background: rgb(0, 0, 0, 0.7);
+}
+.formReg .emailCheck {
+  position: absolute;
+  display: block;
+  top: 21.7em;
+  color: #f7d3d8;
+  font-size: 15px;
+  margin: 0;
+}
+.formReg .passCheck {
+  display: block;
+  position: absolute;
+  top: 30.7em;
+  color: #f7d3d8;
+  font-size: 15px;
+  margin: 0;
+}
+.formReg .copyPassCheck {
+  display: block;
+  position: absolute;
+  color: #f7d3d8;
+  font-size: 15px;
+  top: 35.2em;
+  margin: 0;
+}
+.formReg button:disabled {
+  cursor: default;
+  background: #b8bdc7;
+}
+.hiddenPassword {
+  position: relative;
+  cursor: pointer;
+  left: 6em;
+  bottom: 1.9em;
+}
+.hiddenPassword:hover {
+  cursor: pointer;
+}
+.checkCopyPassword {
+  cursor: pointer;
+  position: relative;
+  left: 6em;
+  bottom: 1.9em;
+}
+.inputCopyPassword {
+  margin-top: 0.4em;
+  position: relative;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 3em;
+  width: 15em;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  outline: none;
+  border: none;
+  overflow: visible;
+  text-align: start;
+  appearance: auto;
+}
+.formRegTitle {
+  font-size: 20px;
+  margin-bottom: 0.8em;
+  color: white;
+}

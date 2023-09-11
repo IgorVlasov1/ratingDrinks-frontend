@@ -1,0 +1,60 @@
+.fileActionsInfo {
+  display: flex;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 600;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.fileActionsInfo p {
+  margin: 0;
+  margin-bottom: 0.3em;
+  margin-left: 0.2em;
+}
+.fileActionsInfo__disabled {
+  display: none;
+}
+.fileaction__button__close {
+  margin-left: 1em;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.fileaction__container {
+  position: fixed;
+  display: flex;
+  bottom: 5em;
+  margin: 0;
+  padding: 0;
+  left: 5px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(156, 156, 216);
+  border-radius: 5px;
+}
+.fileaction__progress__bar {
+  justify-self: end;
+  margin: 0;
+  padding: 0;
+  height: 8px;
+  background: #05386b;
+  width: 100%;
+  border-radius: 10px;
+}
+.fileaction__container__disabled {
+  display: none;
+}
+progress::-moz-progress-bar {
+  background: lightblue;
+}
+
+progress::-webkit-progress-value {
+  background: #05386b;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+}

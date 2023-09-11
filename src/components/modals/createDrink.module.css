@@ -1,0 +1,143 @@
+.deletePopup {
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.deletePopup__close {
+  margin-left: 9em;
+  cursor: pointer;
+}
+.deletePopup__content {
+  width: 300px;
+  background: rgb(5, 56, 107, 0.95);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.deletePopup__header {
+  display: flex;
+  padding: 5px 0px;
+  color: white;
+}
+.deletePopup__delete {
+  align-self: flex-end;
+  height: 25px;
+  width: 25px;
+  color: white;
+  cursor: pointer;
+}
+.deletePopup__input {
+  margin-top: 0.2em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 100%;
+  background: #edf5e1;
+  height: 2.5em;
+  width: 17.5em;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  outline: none;
+  border: none;
+  overflow: visible;
+  text-align: start;
+  appearance: auto;
+}
+
+.deletePopup__textArea {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 100%;
+  background: #edf5e1;
+  height: 2.5em;
+  max-width: 17.5em;
+  border-radius: 25px;
+  padding: 10px 20px 0px 20px;
+  outline: none;
+  border: none;
+  overflow: visible;
+  text-align: start;
+  appearance: auto;
+}
+.addCharacteristics {
+  margin-top: 0.5em;
+  font-size: 12px;
+  line-height: 1.5;
+  color: black;
+  text-transform: uppercase;
+  width: 25em;
+  height: 2em;
+  border-radius: 10px;
+  background: #fcfcfc;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.deletePopup__file {
+  justify-self: center;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+.deletePopup p {
+  align-self: start;
+  color: white;
+}
+.submitForm {
+  margin-top: 1em;
+  align-self: end;
+  color: white;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.addOtherInfoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+.addOtherInfoContainer button {
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+  .deletePopup__content {
+    width: 265px;
+  }
+  .deletePopup__input {
+    width: 15em;
+  }
+  .deletePopup__textArea {
+    max-width: 15em;
+  }
+  .addCharacteristics {
+    margin-top: 0.5em;
+    font-size: 12px;
+    line-height: 1.5;
+    color: black;
+    text-transform: uppercase;
+    width: 23em;
+    height: 2em;
+    border-radius: 10px;
+    background: #fcfcfc;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+  }
+}

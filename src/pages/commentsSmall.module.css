@@ -1,0 +1,92 @@
+.comments_small {
+  position: relative;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: rgb(144, 144, 204);
+  border-radius: 5px;
+}
+
+.comments_small .slider {
+  overflow: hidden;
+}
+
+.comments_small .slide {
+  display: flex;
+  padding: 5px;
+}
+.singleComment {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(25, 25, 173, 0.1);
+  padding: 7px;
+  border-radius: 7px;
+  margin: 0.1em;
+}
+.singleComment .singleCommentHeader {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.singleComment .singleCommentHeader p {
+  margin-left: 0.5em;
+  font-weight: 600;
+}
+.singleComment .avatarImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.commentPictureBlock {
+  display: flex;
+  align-items: center;
+}
+.singleComment .singlePicture {
+  height: 80px;
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.userScorePositive {
+  color: green;
+  padding: 0px 15px 0px;
+  font-weight: 700;
+}
+.userScoreNegative {
+  color: rgb(61, 25, 25);
+  opacity: 0.7;
+  padding: 0px 15px 0px;
+}
+.singleComment.commentContent {
+  text-align: start;
+}
+.comments_small.slide > div {
+  width: calc(33.33%-10px);
+  margin-right: 10px;
+}
+.comments_small.slide > div:last-child {
+  margin-right: 0;
+}
+@media (max-width: 768px) {
+  .comments_small.slide > div {
+    width: calc(50%-10px);
+  }
+}
+@media (max-width: 480px) {
+  .comments_small.slide > div {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .comments_small.slide > div {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.dateCreatedAt {
+  font-size: 10px;
+}

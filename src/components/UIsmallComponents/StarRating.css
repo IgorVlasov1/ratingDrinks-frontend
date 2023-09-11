@@ -1,0 +1,20 @@
+.star-rating {
+  display: inline-block;
+}
+
+.star {
+  color: white;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.star.filled {
+  color: rgb(0, 8, 8);
+}
+@media screen and (max-width: 320px) {
+  .star {
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+}

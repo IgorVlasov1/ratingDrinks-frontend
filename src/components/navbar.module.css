@@ -1,0 +1,150 @@
+.navbarContainer {
+  display: flex;
+  height: 55px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.publicLinksContainer {
+  display: flex;
+  margin-left: auto;
+  max-width: 40px;
+  margin-right: 6em;
+}
+.authContainer {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1.5em;
+}
+@media screen and (max-width: 425px) {
+  .authContainer {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+  }
+  .publicLinksContainer {
+    display: flex;
+    margin-right: 6.5em;
+    max-width: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .publicLinksContainer {
+    display: flex;
+    margin-right: 9em;
+    max-width: 40px;
+  }
+}
+@media screen and (min-width: 426px) {
+  .votePicture {
+    display: none;
+  }
+  .homePicture {
+    display: none;
+  }
+  .adminPicture {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .linkSauth {
+    padding: 9px 13px;
+    background-color: rgb(164, 39, 180);
+    border: none;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+}
+@media screen and (min-width: 321px) {
+  .linkSauth {
+    padding: 9px 25px;
+    background-color: rgb(164, 39, 180);
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* .navbarContainer {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  } */
+  .navbarContainer {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .publicLinksContainer {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    width: 320px;
+    margin-right: 5em;
+  }
+  .linkS {
+    display: none;
+  }
+  .votePicture {
+    margin-left: 4em;
+    color: white;
+    height: 30px;
+    width: 30px;
+  }
+  .homePicture {
+    color: white;
+    height: 30px;
+    width: 30px;
+  }
+}
+.linkS {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 550;
+  color: rgb(164, 39, 180);
+  font-size: 18px;
+  transition: color 0.3s ease 0s;
+}
+
+.linkS:hover {
+  color: white;
+  font-weight: 500;
+}
+.linkSauth:hover {
+  background-color: rgb(164, 39, 180, 0.9);
+}
+.selectedItems {
+  height: 35px;
+  width: 35px;
+  color: rgb(29, 179, 127, 0.65);
+  margin-right: 2em;
+  cursor: pointer;
+  transition: color 0.3s ease 0s;
+}
+.lineBottom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}

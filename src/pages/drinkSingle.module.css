@@ -1,0 +1,433 @@
+.drinkInfoContainer {
+  display: flex;
+  background-color: rgb(144, 144, 204);
+  margin: 1em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.bigInfo {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 400px;
+}
+.titleAndImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}
+.titleAndImage h1 {
+  height: 50px;
+  margin: 0;
+}
+.drinkInfoContainer img {
+  margin-left: 1em;
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+}
+.ratingInfoP {
+  margin-left: 0.3em;
+}
+.ratingInfo {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  height: 40px;
+  width: 250px;
+  margin-left: 1em;
+}
+.drinkInfoContent {
+  display: flex;
+  margin-left: 1em;
+  height: 50px;
+}
+.priceTitle {
+  font-weight: 600;
+}
+.priceTitleScore {
+  margin-left: 0.3em;
+}
+.tagSingle {
+  font-weight: 550;
+  background-color: rgb(29, 179, 129);
+  padding: 5px;
+  height: 20px;
+  font-size: 13px;
+  border-radius: 45px;
+}
+.tagsContainer {
+  display: flex;
+  margin-top: 1em;
+  width: 100%;
+}
+.tagSingle {
+  margin-left: 1em;
+}
+.drinkInfoSmall {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 400px;
+}
+.drinkInfoDescription {
+  display: flex;
+  text-align: start;
+  flex-wrap: wrap;
+  word-break: break-all;
+  width: 1000px;
+}
+.drinkInfoDescription p {
+  font-weight: 600;
+}
+.detailedInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 1em;
+  align-items: flex-start;
+}
+.detailedInfo p {
+  font-weight: 600;
+}
+.otherInfoContainer {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  justify-content: end;
+}
+.otherInfoContainerTitle {
+  display: flex;
+  text-align: start;
+}
+.otherInfoContainerDiscr {
+  text-align: end;
+}
+.comentsContainer {
+  display: flex;
+  background-color: rgb(144, 144, 204);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+.comentsContainer p {
+  align-self: flex-start;
+  margin-left: 1.4em;
+  font-weight: 600;
+}
+.commentStatContainer {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px;
+}
+.statNum {
+  margin: 3px 3px;
+}
+.likeButton,
+.dislikeButton {
+  cursor: pointer;
+}
+.dislikeButtonActive,
+.likeButtonActive {
+  color: rgb(62, 78, 170);
+  cursor: pointer;
+}
+.authorTitle {
+  margin-right: 0.5em;
+}
+.answersContainer {
+  padding: 5px;
+  background-color: rgb(158, 158, 238);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.answersContainerDeleted {
+  padding: 5px;
+  background-color: rgb(158, 158, 238);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  opacity: 0.3;
+  transition: opacity 0.3s ease 0s;
+}
+.answersContainerDeleted:hover {
+  opacity: 1;
+}
+.notAuthorisedUserPhrase {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 1em;
+}
+.headerComment {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.headerComment div {
+  margin-left: 0em;
+}
+.contentComment {
+  display: flex;
+  margin-left: 1em;
+  padding: 5px;
+}
+
+.commentsInfo {
+  display: flex;
+}
+.addComment {
+  margin-left: auto;
+  height: 50px;
+  width: 50px;
+}
+.sendComment {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  align-items: center;
+  padding: 5px;
+}
+.avatarImage {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+.inputComment {
+  margin-left: 1em;
+  display: block;
+  width: 12em;
+  height: 1em;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sendButtonPicture {
+  margin-left: 0.1em;
+  height: 35px;
+  width: 35px;
+}
+.buttonSeeAll {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px 25px;
+  background-color: rgb(29, 179, 129);
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+.buttonSeeAll:hover {
+  background-color: rgb(41, 207, 152);
+}
+.deleteComm {
+  cursor: pointer;
+  margin-left: auto;
+}
+.commentPictureBlock {
+  display: flex;
+  margin-top: 1em;
+  padding: 5px;
+}
+.singlePicture {
+  height: 120px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+.writeCommentButton {
+  padding: 9px 25px;
+  background-color: rgb(29, 179, 129);
+  border: none;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  margin-left: 1em;
+}
+.addToSelected {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .drinkInfoDescription {
+    display: flex;
+    text-align: start;
+    /* flex-wrap: wrap; */
+    height: auto;
+    word-break: break-all;
+    width: 550px;
+  }
+  .drinkInfoSmall {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .drinkInfoDescription p {
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 768px) {
+  .drinkInfoDescription {
+    display: flex;
+    text-align: start;
+    /* flex-wrap: wrap; */
+    height: auto;
+    word-break: break-all;
+    width: 400px;
+  }
+  .drinkInfoSmall {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .drinkInfoDescription p {
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 425px) {
+  .drinkInfoContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(144, 144, 204);
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .drinkInfoSmall {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin: 1em;
+  }
+  .drinkInfoDescription {
+    display: flex;
+    text-align: start;
+    /* flex-wrap: wrap; */
+    height: auto;
+    word-break: break-all;
+    width: 360px;
+  }
+  .buttonSeeAll {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: 9px 25px;
+    background-color: rgb(29, 179, 129);
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 375px) {
+  .drinkInfoSmall {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin: 1em;
+  }
+  .drinkInfoDescription {
+    display: flex;
+    text-align: start;
+    /* flex-wrap: wrap; */
+    height: auto;
+    word-break: break-all;
+    width: 320px;
+  }
+  .bigInfo {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 350px;
+  }
+  .commentPictureBlock {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0;
+    height: auto;
+  }
+  .singlePicture {
+    height: 120px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 320px) {
+  .drinkInfoSmall {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin: 1em;
+  }
+  .drinkInfoDescription {
+    display: flex;
+    text-align: start;
+    /* flex-wrap: wrap; */
+    height: auto;
+    word-break: break-all;
+    width: 265px;
+  }
+  .bigInfo {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 300px;
+  }
+  .commentPictureBlock {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0;
+    height: auto;
+  }
+}

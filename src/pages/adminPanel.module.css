@@ -1,0 +1,62 @@
+.adminButtons {
+  display: flex;
+  margin-top: 4em;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.adminButton {
+  margin-top: 0.5em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 15em;
+  height: 3em;
+  border-radius: 25px;
+  background: #05386b;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  cursor: pointer;
+}
+.changeRoleContainer {
+  margin-top: 2em;
+}
+.changeRoleContainer p {
+  font-size: 17px;
+  color: white;
+}
+.changeRoleContainer input {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666;
+  padding: 0px 15px 0px 15px;
+  height: 2em;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  overflow: visible;
+  text-align: start;
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.inputsContainer button {
+  margin-top: 0.5em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 19em;
+  height: 2em;
+  border-radius: 5px;
+  background: #05386b;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  cursor: pointer;
+}
