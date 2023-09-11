@@ -144,7 +144,7 @@ const DrinkSingle = () => {
           </div>
           <div className={styles.titleAndImage}>
             <h1>{drinkParams.title}</h1>
-            <img src={image}></img>
+            <img src={logo}></img>
             <div className={styles.ratingInfo}>
               <StarRating
                 onRatingChange={onRatingChange}

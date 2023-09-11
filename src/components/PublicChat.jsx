@@ -99,9 +99,10 @@ const PublicChat = () => {
             <div className="chat__message-avatar">
               <img
                 src={
-                  message.authorPicture
-                    ? `${API_URL}${message.authorPicture}`
-                    : defaultAvatar
+                  // message.authorPicture
+                  // ? `${API_URL}${message.authorPicture}`
+                  // :
+                  defaultAvatar
                 }
                 alt="User Avatar"
               />

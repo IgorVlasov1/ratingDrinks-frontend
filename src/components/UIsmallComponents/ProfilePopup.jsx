@@ -40,7 +40,14 @@ function ProfilePopup() {
           </p>
           <h2>логин: {currentUser.login}</h2>
           <p> почта: {currentUser.email}</p>
-          <img className="profile-popup_avatar_big" src={avatar} alt="" />
+          <img
+            className="profile-popup_avatar_big"
+            src={
+              // avatar
+              logo
+            }
+            alt=""
+          />
           <div className="user__profile__change__avatar">
             <button>
               <label for="user__profle__uploadAvatar">Сменить</label>

@@ -139,9 +139,10 @@ const VotePage = () => {
                   <div className={styles.singleUserContainerPrize}></div>
                   <img
                     src={
-                      listOfTopUsers[1].avatar
-                        ? `${API_URL + listOfTopUsers[1].avatar}`
-                        : logo
+                      //listOfTopUsers[1].avatar
+                      //? `${API_URL + listOfTopUsers[1].avatar}`
+                      //:
+                      logo
                     }
                     alt="first"
                   />
@@ -154,9 +155,10 @@ const VotePage = () => {
                   <div className={styles.singleUserContainerPrize}></div>
                   <img
                     src={
-                      listOfTopUsers[0].avatar
-                        ? `${API_URL + listOfTopUsers[0].avatar}`
-                        : logo
+                      // listOfTopUsers[0].avatar
+                      // ? `${API_URL + listOfTopUsers[0].avatar}`
+                      // :
+                      logo
                     }
                     alt="first"
                   />
@@ -169,9 +171,10 @@ const VotePage = () => {
                   <div className={styles.singleUserContainerPrize}></div>
                   <img
                     src={
-                      listOfTopUsers[2].avatar
-                        ? `${API_URL + listOfTopUsers[2].avatar}`
-                        : logo
+                      // listOfTopUsers[2].avatar
+                      // ? `${API_URL + listOfTopUsers[2].avatar}`
+                      // :
+                      logo
                     }
                     alt="first"
                   />
