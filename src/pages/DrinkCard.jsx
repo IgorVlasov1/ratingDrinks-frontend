@@ -32,7 +32,7 @@ const DrinkCard = ({ drink }) => {
           navigate(`/drink/${drink.id}`, { replace: true });
         }}
       >
-        <img loading="lazy" src={image} alt="valuea"></img>
+        <img loading="lazy" src={logo} alt="valuea"></img>
         <div className={styles.drinkName}>{drink.title}</div>
         <div className={styles.drinkPrice}>Стоимость: {drink.price}</div>
         <div className={styles.starAndStats}>
